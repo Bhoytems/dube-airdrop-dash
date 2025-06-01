@@ -88,12 +88,12 @@ const Index = () => {
         <Card className="bg-gradient-to-r from-yellow-400/20 to-orange-500/20 backdrop-blur-lg border-yellow-400/30 mb-6">
           <CardContent className="p-6 text-center">
             <div className="mb-2">
-              <span className="text-sm text-yellow-200">Your Balance</span>
+              <span className="text-sm text-yellow-200" style={{ textShadow: '1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black' }}>Your Balance</span>
             </div>
-            <div className="text-4xl font-bold text-yellow-400 mb-2">
+            <div className="text-4xl font-bold text-yellow-400 mb-2" style={{ textShadow: '2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black' }}>
               {balance.toLocaleString()}
             </div>
-            <div className="text-yellow-200">DUBE Tokens</div>
+            <div className="text-yellow-200" style={{ textShadow: '1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black' }}>DUBE Tokens</div>
           </CardContent>
         </Card>
 
