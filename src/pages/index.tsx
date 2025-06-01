@@ -1,5 +1,4 @@
 
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -9,7 +8,7 @@ import { useToast } from "@/hooks/use-toast";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  const [balance, setBalance] = useState(12750);
+  const [balance, setBalance] = useState(1000);
   const [dailyBonusClaimed, setDailyBonusClaimed] = useState(false);
   const [tasks, setTasks] = useState([
     { id: 1, title: "Follow DUBE on Twitter", reward: 500, completed: false, icon: "🐦" },
