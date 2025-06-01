@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Home, Trophy, Users, Copy, Check, Gift, Zap, Star } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 
 const Index = () => {
   const [balance, setBalance] = useState(1000);
@@ -23,7 +23,7 @@ const Index = () => {
   const user = {
     id: 123456789,
     firstName: "Crypto",
-    lastName: "Enthusiast",
+    lastName: "Enthusiast", 
     username: "cryptouser",
     photoUrl: `https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=150&h=150&fit=crop&crop=face`
   };
