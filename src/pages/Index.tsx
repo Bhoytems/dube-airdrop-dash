@@ -58,13 +58,9 @@ const Index = () => {
       <div className="container mx-auto px-4 pt-8 pb-24">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full mb-4 shadow-lg">
-            <Zap className="w-8 h-8 text-white" />
-          </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
             DUBE
           </h1>
-          <p className="text-blue-200">Crypto Airdrop Platform</p>
         </div>
 
         {/* User Profile Card */}
@@ -87,13 +83,10 @@ const Index = () => {
         {/* Balance Card */}
         <Card className="bg-gradient-to-r from-yellow-400/20 to-orange-500/20 backdrop-blur-lg border-yellow-400/30 mb-6">
           <CardContent className="p-6 text-center">
-            <div className="mb-2">
-              <span className="text-sm text-yellow-200" style={{ textShadow: '1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black' }}>Your Balance</span>
-            </div>
-            <div className="text-4xl font-bold text-yellow-400 mb-2" style={{ textShadow: '2px 2px 0 black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black' }}>
+            <div className="text-4xl font-bold text-yellow-400 mb-2">
               {balance.toLocaleString()}
             </div>
-            <div className="text-yellow-200" style={{ textShadow: '1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black' }}>DUBE Tokens</div>
+            <div className="text-yellow-200">DUBE</div>
           </CardContent>
         </Card>
 
